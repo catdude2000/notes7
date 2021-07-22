@@ -1,37 +1,46 @@
-## Welcome to GitHub Pages
+## Notes 7
 
-You can use the [editor on GitHub](https://github.com/catdude2000/notes7/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Operators
+  JS has both binary and unary operators and one special ternary operator, 
+the conditional operator.
+  A binary operator requires two operands, one before the operator and 
+one after the operator
+  A unary operator requires a single operand, either before or after the 
+operator
+assignment operators assign value on left by value on right  =
+  The conditional operator is the only JavaScript operator that takes three
+operands. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+A function definition (also called a function declaration, or function statement) 
+consists of the function keyword, followed by:
+The name of the function.
+A list of parameters to the function, enclosed in parentheses and separated by commas.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The JavaScript statements that define the function, enclosed in curly brackets, {...}.
+A function can refer to and call itself. There are three ways for a function to 
+refer to itself:
+The function's name
+arguments.callee
+An in-scope variable that refers to the function
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+Control Flow
+control flow is order in which computer executes statements in a script
+  A typical script in JavaScript or PHP (and the like) includes many control structures, 
+including conditionals, loops and functions.
+  Control flow means that when you read a script, you must not only read from
+start to finish but also look at program structure and how it affects order 
+of execution.
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+The () Operator Invokes the Function
+  Using the example above, toCelsius refers to the function object, and 
+toCelsius() refers to the function result.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/catdude2000/notes7/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Local Variables
+Variables declared within a JavaScript function, become LOCAL to the function.
+Variables with same name can be used in different functions
+They're created when function starts and deleted once func has completed
