@@ -44,3 +44,5 @@ Local Variables
 Variables declared within a JavaScript function, become LOCAL to the function.
 Variables with same name can be used in different functions
 They're created when function starts and deleted once func has completed
+
+[Go to TOC](https://catdude2000.github.io/reading-notes/)
